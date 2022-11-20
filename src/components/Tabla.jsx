@@ -17,9 +17,9 @@ export default function Tabla() {
       <tbody>
         <tr>
           <td>1</td>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
+          <td>20/11/2022</td>
+          <td>Barranquilla</td>
+          <td>Calle 182 # 45 - 147</td>
           <td>guardado</td>
 
         </tr>
