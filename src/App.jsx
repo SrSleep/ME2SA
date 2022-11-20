@@ -2,6 +2,8 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Quote from './components/Quote'
 import Formulario from './components/Formulario'
+import Rastrear from './components/Rastrear'
+import Footer from './components/Footer'
 import './App.css'
 
 
@@ -16,6 +18,9 @@ function App () {
      <Formulario titulo="Dimensiones y Tipo de Mercancía" seccion="dimensiones"/>
      <Formulario titulo="Datos de Destinatario" seccion="remitente"/>
      <Quote titulo="Rastrea tu paquete en linea"/>
+     <Rastrear/>
+     <Footer/>
+
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import Campo from './inputs/Campo';
 import FormGroup from './FormGroup';
+import  {Button as Boton} from './Boton';
 
 export default function FormRemitente () {
   return (
@@ -24,8 +25,11 @@ export default function FormRemitente () {
                 <Campo tipo='text' placeholder="Ciudad"/>
             </FormGroup>
          </div>
+         <div className='d-flex mt-2 justify-content-between align-items-center'>
+           <Boton nombre="BORRAR"/>
+           <Boton nombre="GUARDAR"/>
+           <Boton nombre="ACTUALIZAR"/>
+         </div>
     </>
-
-
   )
 }

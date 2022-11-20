@@ -1,3 +1,11 @@
 .logo {
+
   font-family: 'Orbitron', sans-serif;
+}
+
+.espacio{
+  max-width:500px;
+  width:100%;
+  letter-spacing: 2px;
+  text-align: center;
 }
