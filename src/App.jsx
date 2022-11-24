@@ -5,12 +5,13 @@ import Formulario from './components/Formulario'
 import Rastrear from './components/Rastrear'
 import Footer from './components/Footer'
 import './App.css'
+import LoginForm from'./components/LoginForm'
 
 
 function App () {
   return (
     <div className='App'>
-     <Header/>
+     {/* <Header/>
      <Hero/>
      <Quote titulo="Datos de Envío"/>
      <Formulario titulo="Franja Horaria" seccion="horario"/>
@@ -19,7 +20,8 @@ function App () {
      <Formulario titulo="Datos de Destinatario" seccion="remitente"/>
      <Quote titulo="Rastrea tu paquete en linea"/>
      <Rastrear/>
-     <Footer/>
+     <Footer/> */}
+     <LoginForm/>
 
     </div>
   )

@@ -1,12 +1,12 @@
 import Container from 'react-bootstrap/Container'
-import FormHorario from './FormHorario';
-import FormRemitente from './FormRemitente';
-import FormDimMer from './FormDimMer';
+import FormHorario from './FormHorario'
+import FormRemitente from './FormRemitente'
+import FormDimMer from './FormDimMer'
 
-function Formulario({titulo, seccion}) {
+function Formulario ({ titulo, seccion }) {
   return (
-    <Container className="p-5">
-      <h2 className="mb-2">{titulo}</h2>
+    <Container className='p-5'>
+      <h2 className='mb-2'>{titulo}</h2>
 
       {
         seccion === 'horario' && (
@@ -16,18 +16,18 @@ function Formulario({titulo, seccion}) {
 
       {
         seccion === 'remitente' && (
-          <FormRemitente/>
+          <FormRemitente />
         )
       }
 
       {
         seccion === 'dimensiones' && (
-          <FormDimMer/>
+          <FormDimMer />
         )
       }
 
     </Container>
-  );
+  )
 }
 
-export default Formulario;
+export default Formulario
