@@ -9,3 +9,9 @@
   letter-spacing: 2px;
   text-align: center;
 }
+
+.login-content {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
